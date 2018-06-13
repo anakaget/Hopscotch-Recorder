@@ -3,6 +3,12 @@
 # Hopscotch-Recorder
 This is a graphical way of creating hopscotch tour content js files. This is source code for Google Chrome Extension "Create Web Tour with Anakage"
 
+What's Here?
+------------
+- '/css' contains CSS files which are required for the recorder.
+- '/img' contains images files.
+- '/scripts' contains javascript files including content script and background script for chrome extension. 
+
 How do I get started with Hopscotch Recorder?
 ------------------------------------
 - Install chrome extension. 
