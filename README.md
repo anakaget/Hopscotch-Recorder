@@ -11,11 +11,11 @@ What's Here?
 
 How do I get started with Hopscotch Recorder?
 --------------------------------------------
-- Install chrome extension. (Drag the unzip folder into the chrome extension window).
+- Install chrome extension. (Drag the unziped folder into the chrome extension window).
 - Click on the extension icon and Select "Record".
 - Choose your theme for recorder and Select "Start".
 - Move mouse in the html page to show highlighted boxes.
 - Click on highlighted area to add a step.
 - Continue clicking to add more steps.
 
-> Note: Make sure that chrome extension developer mode is trun on.
+> Note: MMake sure that chrome extension developer mode must be turned on.
