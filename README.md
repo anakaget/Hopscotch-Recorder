@@ -5,7 +5,7 @@ This is a graphical way of creating hopscotch tour content js files. This is sou
 
 What's Here?
 ------------
-- '/css' contains CSS files which are required for the recorder.
+- `/css` contains CSS files which are required for the recorder.
 - '/img' contains images files.
 - '/scripts' contains javascript files including content script and background script for chrome extension. 
 
