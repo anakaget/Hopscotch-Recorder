@@ -10,7 +10,7 @@ What's Here?
 - `/scripts` contains javascript files including content script and background script for chrome extension. 
 
 How do I get started with Hopscotch Recorder?
-------------------------------------
+--------------------------------------------
 - Install chrome extension. 
 - Click on the extension icon and Select "Record".
 - Choose your theme for recorder and Select "Start".
