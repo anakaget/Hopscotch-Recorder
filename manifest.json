@@ -1,0 +1,57 @@
+{
+	"manifest_version": 2,
+	"name": "Hopscotch Recorder",
+	"version": "1.0",
+	"author": "Harpal Sharma",
+	"browser_action": {
+		"default_icon": "img/anakage16.png",
+		"default_title": "Create web tour with Anakage",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [ {
+		"all_frames": false,
+		"js": [  
+			"scripts/jquery.min.js", 
+			"scripts/jquery-ui.js",
+			"scripts/content.js"
+		],
+		"css": [ 
+			"css/content.css", 
+			"css/jquery-ui.css"
+		],
+		"match_about_blank": true,
+		"matches" : [ "<all_urls>" ],
+		"run_at": "document_end"
+	} ],
+	"background": {
+		"scripts": [ "scripts/background.js" ], 
+		"persistent": true
+	},
+	"icons": {
+		"128": "img/anakage128.png",
+		"64": "img/anakage64.png",
+		"48": "img/anakage48.png",
+		"16": "img/anakage16.png"
+	},
+	"permissions": [ 
+		"webNavigation", 
+		"storage", 
+		"tabs", 
+		"cookies", 
+		"http://*/*", 
+		"https://*/*", 
+		"notifications", 
+		"webRequest", 
+		"background", 
+		"webRequestBlocking", 
+		"\u003Call_urls>", 
+		"file:///*", 
+		"declarativeContent", 
+		"activeTab"
+	 ],
+	"web_accessible_resources": [
+		"img/*", 
+		"scripts/*",  
+		"css/*"
+	]
+}
