@@ -18,4 +18,4 @@ How do I get started with Hopscotch Recorder?
 - Click on highlighted area to add a step.
 - Continue clicking to add more steps.
 
-> Note: MMake sure that chrome extension developer mode must be turned on.
+> Note: Make sure that chrome extension developer mode must be turned on.
