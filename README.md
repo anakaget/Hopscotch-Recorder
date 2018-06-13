@@ -1,7 +1,7 @@
-# Hopscotch-Recorder
 ![Hopscotch-Recorder](/img/tour_demo.PNG)
 An easy and effective way to record your tour steps.
 
+# Hopscotch-Recorder
 This is a graphical way of creating hopscotch tour content js files. This is source code for Google Chrome Extension "Create Web Tour with Anakage"
 
 Steps to use - 
